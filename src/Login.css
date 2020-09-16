@@ -1,0 +1,52 @@
+.login{
+    height: 100vh;
+    margin-left: 500px;
+
+ 
+}
+.amaLogo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 100px;
+    margin-right: auto;
+    margin-left: 100px;
+    
+}
+.LoginContainer{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    background: white;
+    
+}
+.LoginContainer>p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.LoginContainer>form>input{
+    width: 98%;
+    height: 30px;
+}
+
+.LoginSignInButton{
+    background:#f0c14b;
+    border:1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    width: 100%;
+    height: 30px;
+}
+.LoginregisterButton{
+    border:1px solid;
+    color: #111;
+    height: 30px;
+}
